@@ -16,20 +16,19 @@ mv ~/.local/state/nvim{,.bak}
 mv ~/.cache/nvim{,.bak}
 ```
 
-- If it was not installed, please install it
+1. ** Clone repository.**
 
-```
-sudo pacman -Syu git lazygit fzf ripgrep ninja gettext libtool autoconf automake cmake pkgconf unzip curl doxygen neovim
-```
-
-- Clone repository.
+- Next, open a terminal and type
 
 ```sh
 git clone https://github.com/sofijacom/KL-Neovim-v2.git ~/.config/nvim
 ```
-- Next, open a terminal and type
 
-```
-nvim
-```
+2. **Install:**
+   ```bash
+   cd ~/.config/nvim
+   chmod +x install.sh
+   ./install.sh
+   ```
+   
 - Wait until the required components are installed
