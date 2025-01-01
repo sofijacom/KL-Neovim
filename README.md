@@ -30,3 +30,6 @@ git clone https://github.com/sofijacom/KL-Neovim-v2.git ~/.config/nvim
    ```
    
 - Wait until the required components are installed
+
+## Usage
+After running the install.sh script, you can start Neovim by typing nvim in your terminal.The plugins should be installed and ready to use.
