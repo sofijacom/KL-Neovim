@@ -6,6 +6,12 @@
 
 If you already have Neovim installed. Backup current neovim configuration files.
 
+If it was not installed, please install it
+
+```
+sudo pacman -Syu git lazygit fzf ripgrep ninja gettext libtool autoconf automake cmake pkgconf unzip curl doxygen neovim
+```
+
 ```sh
 # required
 mv ~/.config/nvim{,.bak}
