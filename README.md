@@ -6,12 +6,6 @@
 
 If you already have Neovim installed. Backup current neovim configuration files.
 
-If it was not installed, please install it
-
-```
-sudo pacman -Syu git lazygit fzf ripgrep ninja gettext libtool autoconf automake cmake pkgconf unzip curl doxygen neovim
-```
-
 ```sh
 # required
 mv ~/.config/nvim{,.bak}
@@ -22,12 +16,19 @@ mv ~/.local/state/nvim{,.bak}
 mv ~/.cache/nvim{,.bak}
 ```
 
+If it was not installed, please install it
+
+```
+sudo pacman -Syu git lazygit fzf ripgrep ninja gettext libtool autoconf automake cmake pkgconf unzip curl doxygen neovim
+```
+
 Clone repository.
 
 ```sh
 git clone https://github.com/sofijacom/KL-Neovim-v2.git ~/.config/nvim
 ```
-Next, open a terminal and type 
+Next, open a terminal and type
+
 ```
 nvim
 ```
