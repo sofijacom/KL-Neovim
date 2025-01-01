@@ -3,7 +3,7 @@
 ![2025-01-01_18-26](https://github.com/user-attachments/assets/9d38eac1-04f5-4050-8bbb-4f58b0f1ef4e)
 
 
-Backup current neovim configuration files.
+If you already have Neovim installed. Backup current neovim configuration files.
 
 ```sh
 # required
@@ -20,3 +20,4 @@ Clone repository.
 ```sh
 git clone https://github.com/sofijacom/nvim ~/.config/nvim
 ```
+Next, open a terminal and type Nvim
