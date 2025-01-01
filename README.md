@@ -24,6 +24,7 @@ git clone https://github.com/sofijacom/KL-Neovim-v2.git ~/.config/nvim
 
 2. **Install:**
    ```bash
+   # open terminal and type
    cd ~/.config/nvim
    chmod +x install.sh
    ./install.sh
