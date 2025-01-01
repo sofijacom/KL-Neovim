@@ -16,7 +16,7 @@ mv ~/.local/state/nvim{,.bak}
 mv ~/.cache/nvim{,.bak}
 ```
 
-1. ** Clone repository.**
+1. **Clone repository**
 
 - Next, open a terminal and type
 
