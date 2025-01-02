@@ -2,7 +2,8 @@
 
 ![2025-01-02_15-50](https://github.com/user-attachments/assets/bb2b7be2-c00a-4ac1-ac7c-0b12d0e6d335)
 
-![2025-01-02_22-09](https://github.com/user-attachments/assets/7af4160c-637a-4a05-9a65-e9f693242108)
+
+![2025-01-02_17-09](https://github.com/user-attachments/assets/d13633b8-32ff-4f21-be8f-c91872b13b14)
 
 
 - If you already have Neovim installed. Backup current neovim configuration files.
