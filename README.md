@@ -1,7 +1,6 @@
 # KL-Neovim
 
-![2025-01-01_19-22](https://github.com/user-attachments/assets/1c1c36f1-e86f-44c8-a88f-58faca88dd9a)
-
+![2025-01-02_15-46](https://github.com/user-attachments/assets/c9b6fc1e-eb90-47fd-96ec-8ec91a48be96)
 
 
 - If you already have Neovim installed. Backup current neovim configuration files.
