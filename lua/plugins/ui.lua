@@ -205,7 +205,7 @@ return {
     opts = function(_, opts)
       -- vim.fn.matchadd("Error", "[░▒]")
       -- vim.fn.matchadd("Function", "[▓█▄▀▐▌]")
-      local logo = string.rep("\n", 3) .. LOGOS.kl_neovim .. "\n"
+      local logo = string.rep("\n", 1) .. LOGOS.kl_neovim .. "\n"
       opts.config.header = vim.split(logo, "\n")
       -- stylua: ignore
       opts.config.center = {
