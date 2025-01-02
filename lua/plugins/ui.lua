@@ -96,10 +96,10 @@ return {
       -- table.insert(opts.extensions, "overseer")
       table.insert(opts.extensions, "toggleterm")
 
-      opts.options.component_separators = { left = "|", right = "|" }
-      opts.options.section_separators = { left = "", right = "" }
-      -- opts.options.component_separators = { left = "", right = "" }
-      -- opts.options.section_separators = { left = "", right = "" }
+      -- opts.options.component_separators = { left = "|", right = "|" }
+      -- opts.options.section_separators = { left = "", right = "" }
+      opts.options.component_separators = { left = "", right = "" }
+      opts.options.section_separators = { left = "", right = "" }
     end,
   },
   { "indent-blankline.nvim", enabled = false },
