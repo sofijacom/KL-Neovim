@@ -3,7 +3,8 @@
 ![2025-01-02_15-50](https://github.com/user-attachments/assets/bb2b7be2-c00a-4ac1-ac7c-0b12d0e6d335)
 
 
-![2025-01-04_12-11](https://github.com/user-attachments/assets/b4bcf6be-44c3-42c6-8cc0-1771aa29e552)
+![2025-01-05_15-52](https://github.com/user-attachments/assets/7077a408-5250-464d-abe3-24143a69401e)
+
 
 
 
