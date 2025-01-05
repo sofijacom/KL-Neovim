@@ -4,6 +4,7 @@ return {
 	opts = { -- set to setup table
 	},
 }
+
 --return {
 --	"norcalli/nvim-colorizer.lua",
 --	config = function()
