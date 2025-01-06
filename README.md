@@ -25,7 +25,7 @@ mv ~/.cache/nvim{,.bak}
 1. **Clone the repository**
 
 ```sh
-git clone https://github.com/sofijacom/KL-Neovim-v2.git ~/.config/nvim
+git clone https://github.com/sofijacom/KL-Neovim.git ~/.config/nvim
 ```
 
 2. **Install**
