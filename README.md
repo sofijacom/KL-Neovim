@@ -7,6 +7,9 @@
 ![2025-01-05_15-52](https://github.com/user-attachments/assets/7077a408-5250-464d-abe3-24143a69401e)
 
 
+![2025-01-18_19-08](https://github.com/user-attachments/assets/d44b3176-4881-4403-9e43-0e9560decccb)
+
+
 - If you already have Neovim installed. Backup current neovim configuration files.
 
 ```sh
