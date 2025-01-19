@@ -13,7 +13,7 @@
  
 ![2025-01-18_19-08](https://github.com/user-attachments/assets/138cbb6f-c72b-4461-a9ff-bcb960d4e7a2)
 
-- *catppuccin-latte*
+- *catppuccin-latte color scheme*
   
 ![2025-01-19_16-14](https://github.com/user-attachments/assets/599db183-61c9-4de7-9869-26c8a3754055)
 
