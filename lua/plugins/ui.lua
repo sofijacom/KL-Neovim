@@ -10,7 +10,7 @@ return {
     {
       'akinsho/bufferline.nvim',
        version = "*",
-       dependencies = 'nvim-tree/nvim-web-devicons'
+       dependencies = 'nvim-tree/nvim-web-devicons',
     },
 
     {
@@ -78,5 +78,14 @@ return {
           -- Also the user event "TransparentClear" will be triggered
           on_clear = function() end,
         },
+       },
+
+       {
+         '2kabhishek/nerdy.nvim',
+         dependencies = {
+           'stevearc/dressing.nvim',
+           'nvim-telescope/telescope.nvim',
+         },
+         cmd = 'Nerdy',
        },
     }
