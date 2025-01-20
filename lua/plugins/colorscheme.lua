@@ -119,7 +119,7 @@ return {
     -- Configure LazyVim , Switch color scheme
     "LazyVim/LazyVim",
       opts = {
-        colorscheme = "tokyonight"  -- dracula , rose-pine , rose-pine-dawn , cyberdream ,
+        colorscheme = "tokyonight"  -- dracula , rose-pine , rose-pine-dawn , cyberdream , peachpuff
         -- tokyonight , catppuccin-macchiato , catppuccin-latte , github_dark_default , github_light_default
       },
     },
