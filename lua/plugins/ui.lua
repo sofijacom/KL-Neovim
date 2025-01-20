@@ -1,75 +1,62 @@
 return {
-      {
-        "carbon-steel/detour.nvim",
-        cmd = { "Detour", "DetourCurrentWindow" },
-      },
+    {
+      "carbon-steel/detour.nvim",
+      config = function ()
+      vim.keymap.set('n', '<c-w><enter>', ":Detour<cr>")
+      vim.keymap.set('n', '<c-w>.', ":DetourCurrentWindow<cr>")
+      end
+    },
 
-      {
-        "akinsho/bufferline.nvim",
-        opts = {
-          options = {
-            -- indicator = { style = "underline" },
-          },
-        },
-      },
+    {
+      'akinsho/bufferline.nvim',
+       version = "*",
+       dependencies = 'nvim-tree/nvim-web-devicons'
+    },
 
-      {
-        "nvim-lualine/lualine.nvim",
-        opts = function(_, opts)
+    {
+      "nvim-lualine/lualine.nvim",
+      opts = function(_, opts)
 
-        -- table.insert(opts.extensions, "overseer")
-        table.insert(opts.extensions, "toggleterm")
+      -- table.insert(opts.extensions, "overseer")
+      table.insert(opts.extensions, "toggleterm")
 
-        -- opts.options.component_separators = { left = "|", right = "|" }
-        -- opts.options.section_separators = { left = "", right = "" }
+      -- opts.options.component_separators = { left = "|", right = "|" }
+      -- opts.options.section_separators = { left = "", right = "" }
 
-         opts.options.component_separators = { left = "", right = "" }
-         opts.options.section_separators = { left = "", right = "" }
+      -- opts.options.component_separators = { left = "", right = "" }
+      -- opts.options.section_separators = { left = "", right = "" }
 
-        -- opts.options.component_separators = { left = "╱", right = "╲" }
-        -- opts.options.section_separators = { left = "", right = "" }
+      opts.options.component_separators = { left = "╱", right = "╲" }
+      opts.options.section_separators = { left = "", right = "" }
                   
-        -- opts.options.component_separators = { left = " ", right = " " }
-        -- opts.options.section_separators = { left = " ", right = " " }
+      -- opts.options.component_separators = { left = " ", right = " " }
+      -- opts.options.section_separators = { left = " ", right = " " }
 
-        -- opts.options.component_separators = { left = "╲", right = "╱" }
-        -- opts.options.section_separators = { left = "", right = "" }
+      -- opts.options.component_separators = { left = "╲", right = "╱" }
+      -- opts.options.section_separators = { left = "", right = "" }
                   
-        -- opts.options.component_separators = { left = "", right = "" }
-        -- opts.options.section_separators = { left = "", right = "" }
+      -- opts.options.component_separators = { left = "", right = "" }
+      -- opts.options.section_separators = { left = "", right = "" }
         end,
       },
 
       { "indent-blankline.nvim", enabled = false },
 
+      -- lazy.nvim
       {
         "folke/noice.nvim",
+        event = "VeryLazy",
         opts = {
-          lsp = {
-            hover = {
-              silent = true,
-            },
-          },
-        },
-        keys = {
-          -- stylua: ignore
-          { "<leader>snh", function() require("noice").cmd("telescope") end, desc = "Noice History" },
-        },
+          -- add any options here
       },
-
-      {
-        "stevearc/dressing.nvim",
-        opts = {
-          input = {
-            get_config = function(opts)
-            if opts.kind == "center" then
-              return {
-                relative = "editor",
-              }
-              end
-              end,
-          },
-        },
+        dependencies = {
+          -- if you lazy-load any plugin below, make sure to add proper `module="..."` entries
+          "MunifTanjim/nui.nvim",
+          -- OPTIONAL:
+          --   `nvim-notify` is only needed, if you want to use the notification view.
+          --   If not available, we use `mini` as the fallback
+          "rcarriga/nvim-notify",
+        }
       },
 
       {
@@ -98,19 +85,10 @@ return {
             "SignColumn",
             "CursorLine",
             "CursorLineNr",
-            -- "StatusLine",
-            -- "StatusLineNC",
+            "StatusLine",
+            "StatusLineNC",
             "EndOfBuffer",
           },
         },
-      },
-
-      {
-        "2kabhishek/nerdy.nvim",
-        dependencies = {
-          "stevearc/dressing.nvim",
-          "nvim-telescope/telescope.nvim",
-        },
-        cmd = "Nerdy",
       },
     }
