@@ -1,5 +1,8 @@
 # KL-Neovim
 
+![2025-01-20_14-19](https://github.com/user-attachments/assets/34d560f8-2e55-42c7-a3c4-5707d29df3e8)
+
+
 ![2025-01-02_15-50](https://github.com/user-attachments/assets/34382556-4b40-4c81-be8b-090f8a042d9a)
 
 
