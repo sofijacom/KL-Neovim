@@ -120,7 +120,7 @@ return {
     "LazyVim/LazyVim",
       opts = {
         colorscheme = "tokyonight"  -- dracula , rose-pine , rose-pine-dawn , cyberdream , peachpuff
-        -- tokyonight , catppuccin-macchiato , catppuccin-latte , github_dark_default , github_light_default
+        -- tokyonight , catppuccin-macchiato , catppuccin-latte , github_dark_default , github_light_default, zellner , vim , elflord
       },
     },
 }
