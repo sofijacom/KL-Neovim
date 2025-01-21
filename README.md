@@ -6,7 +6,7 @@
 
 
 <details>
-<summary><b>📸 Image</b></summary>
+<summary><b>🦋 Image</b></summary>
 
 <br>
 
