@@ -3,14 +3,9 @@
 ![2025-01-20_14-24](https://github.com/user-attachments/assets/13a08f8a-9a7e-415e-b4ab-c9d48119f208)
 
 
-![2025-01-07_01-54](https://github.com/user-attachments/assets/bdf6f0c6-d5fc-414c-b70d-9509bfb69479)
-
-
 ![2025-01-18_19-41](https://github.com/user-attachments/assets/185ae8f9-46d5-49cf-9696-8de1cd5601c0)
 
 
-
- 
 ![2025-01-05_15-52](https://github.com/user-attachments/assets/7077a408-5250-464d-abe3-24143a69401e)
 
  
