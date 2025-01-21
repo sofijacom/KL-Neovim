@@ -6,7 +6,7 @@
 
 <div align="center">
 
-# *KL-Neovim*
+#
  
 ![2025-01-21_15-48](https://github.com/user-attachments/assets/f03255fb-4f59-474b-a79d-a9010733db50)
 
