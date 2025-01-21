@@ -1,13 +1,12 @@
 <div align="center">
  
-# *KL-Neovim*
-
 ![2025-01-21_15-51](https://github.com/user-attachments/assets/59f30bb7-6e59-4012-bca4-a4bff3f4c970)
-
 
 </div>
 
 <div align="center">
+
+# *KL-Neovim*
  
 ![2025-01-21_15-48](https://github.com/user-attachments/assets/f03255fb-4f59-474b-a79d-a9010733db50)
 
