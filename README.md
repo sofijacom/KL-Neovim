@@ -28,6 +28,12 @@
 
 </div>
 
+<div align="center">
+
+![2025-01-22_02-06](https://github.com/user-attachments/assets/5d93af4e-6b19-46fe-84e4-cbf87b143982)
+
+</div>
+
  <div align="center">
   
 ![2025-01-18_19-08](https://github.com/user-attachments/assets/138cbb6f-c72b-4461-a9ff-bcb960d4e7a2)
