@@ -39,6 +39,24 @@
 </div>
 
 <div align="center">
+ 
+![2025-01-19_15-01](https://github.com/user-attachments/assets/b383ac07-3568-4cc8-8fbb-ec223e20dece)
+
+</div>
+
+<div align="center">
+ 
+![2025-01-21_14-43](https://github.com/user-attachments/assets/d9c145af-2134-44d6-8c4f-c3fac24871fc)
+
+</div>
+
+<div align="center">
+ 
+![2025-01-21_00-01](https://github.com/user-attachments/assets/bf48a821-e31d-4c90-8fa2-3bbae536e1c7)
+
+</div>
+
+<div align="center">
 
 ![2025-01-19_16-14](https://github.com/user-attachments/assets/599db183-61c9-4de7-9869-26c8a3754055)
 
