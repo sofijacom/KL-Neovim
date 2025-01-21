@@ -1,6 +1,6 @@
 <div align="center">
  
-![2025-01-21_15-51](https://github.com/user-attachments/assets/59f30bb7-6e59-4012-bca4-a4bff3f4c970)
+![2025-01-21_16-04](https://github.com/user-attachments/assets/45ff3c96-30d8-4585-afc1-6e5e69c4c4a6)
 
 </div>
 
