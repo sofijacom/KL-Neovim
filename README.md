@@ -45,6 +45,12 @@
 ![2025-01-19_16-12](https://github.com/user-attachments/assets/44cdd3c2-302b-4afc-a782-68a3c2acf67c)
 
 </div>
+
+<div align="center">
+
+![2025-01-20_20-55](https://github.com/user-attachments/assets/581918f1-08f2-44cc-9b2b-677c9b729ed8)
+
+</div>
 </details>
 
 <br>
