@@ -106,8 +106,14 @@ git clone https://github.com/sofijacom/KL-Neovim.git ~/.config/nvim
 ```bash
 # open terminal and type
 cd ~/.config/nvim
+# for installation in Arch
 chmod +x install.sh
+# for installation in Void         
+chmod +x install-void.sh      
+# for installation in Arch 
 ./install.sh
+# for installation in Void 
+./install-void.sh   
 ```
    
 - Wait until the required components are installed
