@@ -30,7 +30,7 @@
 
 <div align="center">
 
-![2025-01-22_02-06](https://github.com/user-attachments/assets/5d93af4e-6b19-46fe-84e4-cbf87b143982)
+![2025-01-22_03-10](https://github.com/user-attachments/assets/b1951af2-f451-424b-850d-7f1e70c1c10e)
 
 </div>
 
