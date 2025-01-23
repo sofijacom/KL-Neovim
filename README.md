@@ -124,6 +124,8 @@ After running the install.sh script, you can start Neovim by typing nvim in your
 
 ## 📂 File Structure
 
+You can add your custom plugin specs under `lua/plugins/`.
+
 <pre>
 ~/.config/nvim
 ├── lua
