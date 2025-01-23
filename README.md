@@ -122,6 +122,21 @@ chmod +x install-void.sh
 ## Usage
 After running the install.sh script, you can start Neovim by typing nvim in your terminal.The plugins should be installed and ready to use.
 
+<pre>
+~/.config/nvim
+├── lua
+│   ├── config
+│   │   ├── autocmds.lua
+│   │   ├── keymaps.lua
+│   │   ├── lazy.lua
+│   │   └── options.lua
+│   └── plugins
+│       ├── spec1.lua
+│       ├── **
+│       └── spec2.lua
+└── init.lua
+</pre>
+
 <p align="center">	
   <img src="https://github.com/sofijacom/sofijacom/blob/49e18fe1d7c2223884efd95af9370dcb84697427/icons_line/gray0_ctp_on_line.svg?sanitize=true" />
 </p>
