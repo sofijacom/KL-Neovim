@@ -81,6 +81,13 @@
 ![2025-01-20_20-55](https://github.com/user-attachments/assets/581918f1-08f2-44cc-9b2b-677c9b729ed8)
 
 </div>
+
+<div align="center">
+
+![2025-01-27_16-58](https://github.com/user-attachments/assets/b9bee36b-9fbe-4e4e-9951-f4717faff306)
+
+</div>
+
 </details>
 
 <br>
