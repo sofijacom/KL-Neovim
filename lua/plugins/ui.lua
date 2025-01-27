@@ -1,11 +1,13 @@
 return {
-    {
-      "carbon-steel/detour.nvim",
-      config = function ()
-      vim.keymap.set('n', '<c-w><enter>', ":Detour<cr>")
-      vim.keymap.set('n', '<c-w>.', ":DetourCurrentWindow<cr>")
-      end
-    },
+  { "carbon-steel/detour.nvim",
+    config = function ()
+    require("detour").setup({
+      -- Put custom configuration here
+    })
+    vim.keymap.set('n', '<c-w><enter>', ":Detour<cr>")
+    vim.keymap.set('n', '<c-w>.', ":DetourCurrentWindow<cr>")
+    end
+  },
 
     {
       'akinsho/bufferline.nvim',
@@ -28,7 +30,7 @@ return {
 
        opts.options.component_separators = { left = "╱", right = "╲" }
        opts.options.section_separators = { left = "", right = "" }
-                  
+
       -- opts.options.component_separators = { left = " ", right = " " }
       -- opts.options.section_separators = { left = " ", right = " " }
 
