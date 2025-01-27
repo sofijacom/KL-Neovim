@@ -22,7 +22,6 @@ return {
       ]]
 
      local sharp = [[
-
                                              
       ████ ██████           █████      ██
      ███████████             █████ 
@@ -34,7 +33,7 @@ return {
       ]]
 
       -- logo style: logo , sharp
-      dashboard.section.header.val = vim.split(logo, "\n")
+      dashboard.section.header.val = vim.split(sharp, "\n")
       -- stylua: ignore
       dashboard.section.buttons.val = {
         dashboard.button("f", " " .. " Find file",       "<cmd> lua LazyVim.pick()() <cr>"),
