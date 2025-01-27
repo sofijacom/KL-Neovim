@@ -21,7 +21,7 @@ return {
 \_| \_/\_____/  \_| \_/\____/ \___/  \___/ \___/\_|  |_/
       ]]
 
-     local logo2 = [[
+     local sharp = [[
 
                                              
       ████ ██████           █████      ██
@@ -33,7 +33,7 @@ return {
 ██████  █████████████████████ ████ █████ █████ ████ ██████
       ]]
 
-      -- logo style: logo , logo2
+      -- logo style: logo , sharp
       dashboard.section.header.val = vim.split(logo, "\n")
       -- stylua: ignore
       dashboard.section.buttons.val = {
