@@ -41,8 +41,16 @@ return {
       -- opts.options.section_separators = { left = "", right = "" }
         end,
       },
-
-      { "indent-blankline.nvim", enabled = false },
+  
+      -- {
+      --  "lukas-reineke/indent-blankline.nvim",
+      --  main = "ibl",
+        ---@module "ibl"
+        ---@type ibl.config
+      --  opts = {},
+      -- },
+  
+      -- { "indent-blankline.nvim", enabled = false },
 
       -- lazy.nvim
       {
