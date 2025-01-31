@@ -4,5 +4,5 @@ return {
     opts = {
         default_player = 'smplayer'
     }
-}
+},
 }
