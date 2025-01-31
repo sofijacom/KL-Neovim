@@ -3,7 +3,7 @@ return {
 {   
     'AntonVanAssche/music-controls.nvim',
     opts = {
-        default_player = 'smplayer'
+       -- default_player = 'spotify'
     }
 },
 }
