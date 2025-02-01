@@ -114,6 +114,9 @@ return {
    -- vim.cmd("colorscheme rose-pine-moon")
    -- end
   },
+   {
+    "EdenEast/nightfox.nvim"
+  }, 
 --  {
     -- Configure LazyVim , Switch color scheme
 --    "LazyVim/LazyVim",
