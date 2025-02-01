@@ -67,14 +67,20 @@ return {
     -- opts.options.component_separators = { left = "|", right = "|" }
     -- opts.options.section_separators = { left = "", right = "" }
 
-    opts.options.component_separators = { left = "", right = "" }
-    opts.options.section_separators = { left = "", right = "" }
+    -- opts.options.component_separators = { left = "", right = "" }
+    -- opts.options.section_separators = { left = "", right = "" }
 
-    -- opts.options.component_separators = { left = "", right = "" }
-    -- opts.options.section_separators = { left = "", right = "" }      
+    opts.options.component_separators = { left = "╱", right = "╲" }
+    opts.options.section_separators = { left = "", right = "" }
 
-    --opts.options.component_separators = { left = "", right = "" }
-    --opts.options.section_separators = { left = "", right = "" }
+    -- opts.options.component_separators = { left = " ", right = " " }
+    -- opts.options.section_separators = { left = " ", right = " " }
+
+    -- opts.options.component_separators = { left = "╲", right = "╱" }
+    -- opts.options.section_separators = { left = "", right = "" }
+
+    -- opts.options.component_separators = { left = "", right = "" }
+    -- opts.options.section_separators = { left = "", right = "" }
     end,
   },
 
@@ -172,8 +178,14 @@ return {
     },
     -- stylua: ignore
     keys = {
-      { "<leader>n", function() Snacks.notifier.show_history() end, desc = "Notification History" },
-      { "<leader>un", function() Snacks.notifier.hide() end, desc = "Dismiss All Notifications" },
+      { "<leader>n", function()
+        if Snacks.config.picker and Snacks.config.picker.enabled then
+          Snacks.picker.notifications()
+          else
+            Snacks.notifier.show_history()
+            end
+            end, desc = "Notification History" },
+            { "<leader>un", function() Snacks.notifier.hide() end, desc = "Dismiss All Notifications" },
     },
   },
 
@@ -182,6 +194,9 @@ return {
     opts = {
       dashboard = {
         preset = {
+          pick = function(cmd, opts)
+          return LazyVim.pick(cmd, opts)()
+          end,
           header = [[
 
 ★　✯   🛸                    🪐   .°•
