@@ -106,7 +106,6 @@ return {
     -- dracula themes
     "Mofiqul/dracula.nvim",
   },
-
   {
     -- lua/plugins/rose-pine.lua
     "rose-pine/neovim",
@@ -115,12 +114,12 @@ return {
    -- vim.cmd("colorscheme rose-pine-moon")
    -- end
   },
-  {
+--  {
     -- Configure LazyVim , Switch color scheme
-    "LazyVim/LazyVim",
-      opts = {
-        colorscheme = "catppuccin-macchiato"  -- dracula , rose-pine , rose-pine-dawn , cyberdream , peachpuff
+--    "LazyVim/LazyVim",
+--      opts = {
+--        colorscheme = "catppuccin-macchiato"  -- dracula , rose-pine , rose-pine-dawn , cyberdream , peachpuff
         -- tokyonight , catppuccin-macchiato , catppuccin-latte , github_dark_default , github_light_default, zellner , vim , elflord
-      },
-    },
+--      },
+--    },
 }
