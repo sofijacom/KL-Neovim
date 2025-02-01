@@ -114,8 +114,19 @@ return {
    -- vim.cmd("colorscheme rose-pine-moon")
    -- end
   },
-   {
-    "EdenEast/nightfox.nvim"
+  {
+    "EdenEast/nightfox.nvim",
+    config = function()
+    require('nightfox').setup({
+      options = {
+        styles = {
+          comments = "italic",
+          keywords = "bold",
+          types = "italic,bold",
+        }
+      }
+    })
+    end,
   }, 
 --  {
     -- Configure LazyVim , Switch color scheme
