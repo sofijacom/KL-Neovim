@@ -10,7 +10,7 @@ require('lualine').setup {
     }
 }
 -- Switch color scheme
--- dracula , rose-pine , rose-pine-dawn , cyberdream , peachpuff
+-- dracula , rose-pine , rose-pine-dawn , cyberdream , peachpuff, nightfox
 -- tokyonight , catppuccin-macchiato , catppuccin-latte , github_dark_default , github_light_default, zellner , vim , elflord
 vim.o.termguicolors = true
-vim.cmd'colorscheme catppuccin-macchiato'
+vim.cmd('colorscheme catppuccin-macchiato')
