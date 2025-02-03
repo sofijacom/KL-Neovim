@@ -1,17 +1,17 @@
 -- this file is: /Users/mikavilpas/.config/nvim/lua/plugins/my-file-manager.lua
 ---@type LazySpec
 return {
-    {
-        "mikavilpas/yazi.nvim",
-        keys = {
-            {
-                "<up>",
-                function()
-                require("yazi").yazi()
-                end,
-            },
-        },
-    },
+  --  {
+  --      "mikavilpas/yazi.nvim",
+  --      keys = {
+  --          {
+  --              "<up>",
+  --              function()
+  --              require("yazi").yazi()
+  --              end,
+  --          },
+  --      },
+  --  },
     {
         "Rolv-Apneseth/starship.yazi",
         lazy = true,
