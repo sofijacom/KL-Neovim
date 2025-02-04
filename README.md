@@ -1,6 +1,7 @@
 <div align="center">
  
-![2025-01-21_15-51 (1)](https://github.com/user-attachments/assets/b5df44ed-9b06-4189-b62c-169b0ac161c2)
+![kl-neovim](https://github.com/user-attachments/assets/364edb4e-2305-4119-83da-7a49bede629a)
+
 
 ![2025-02-05_02-22](https://github.com/user-attachments/assets/5f578de7-1c4f-4017-abae-8abb4bf300be)
 
