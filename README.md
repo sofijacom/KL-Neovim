@@ -2,8 +2,7 @@
  
 ![2025-01-21_15-51 (1)](https://github.com/user-attachments/assets/b5df44ed-9b06-4189-b62c-169b0ac161c2)
 
-![2025-02-05_02-18](https://github.com/user-attachments/assets/16f20c82-d4fc-4618-89d2-204b05444509)
-
+![2025-02-05_02-22](https://github.com/user-attachments/assets/5f578de7-1c4f-4017-abae-8abb4bf300be)
 
 </div>
 
