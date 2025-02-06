@@ -1,5 +1,6 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
+require("config.options")
 
 -- https://github.com/AntonVanAssche/music-controls.nvim
 require('lualine').setup {
