@@ -76,7 +76,7 @@ return {
         transparent = true,
         italic_comments = false,
         hide_fillchars = false,
-        borderless_telescope = false,
+        borderless_pickers = false,
         terminal_colors = true,
       })
     end,
