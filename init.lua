@@ -3,6 +3,7 @@ require("config.lazy")
 require("config.options")
 
 -- https://github.com/AntonVanAssche/music-controls.nvim
+-- Music Controls requires playerctl to be installed in order to work properly.
 -- sudo pacman -S playerctl
 require('lualine').setup {
     sections = {
