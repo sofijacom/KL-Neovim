@@ -3,7 +3,7 @@ require("config.lazy")
 require("config.options")
 
 -- https://github.com/AntonVanAssche/music-controls.nvim
--- install - playerctl
+-- sudo pacman -S playerctl
 require('lualine').setup {
     sections = {
         lualine_x = {
