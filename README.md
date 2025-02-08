@@ -137,7 +137,11 @@ After running the install.sh script, you can start Neovim by typing nvim in your
 > Music Controls requires playerctl to be installed in order to work properly.
 
 ```
+# Arch Linux
  sudo pacman -S playerctl
+
+# Void Linux
+ sudo xbps-install -S playerctl
 ```
 
 ## 📂 File Structure
