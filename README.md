@@ -132,6 +132,12 @@ chmod +x install-void.sh
 ## Usage
 After running the install.sh script, you can start Neovim by typing nvim in your terminal.The plugins should be installed and ready to use.
 
+- Music Controls requires playerctl to be installed in order to work properly.
+
+```
+ sudo pacman -S playerctl
+```
+
 ## 📂 File Structure
 
 You can add your custom plugin specs under `lua/plugins/`.
