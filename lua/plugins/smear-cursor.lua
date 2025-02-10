@@ -24,10 +24,10 @@ return {
         -- Set to "none" to match the text color at the target cursor position.
         cursor_color = "#875eb0",
                                        -- Default  Range
-        --stiffness = 0.5,               -- 0.6      [0, 1]
-        --trailing_stiffness = 0.2,      -- 0.3      [0, 1]
-        --distance_stop_animating = 0.1, -- 0.1      > 0
-        --hide_target_hack = true,
-        --gamma = 1,        
+        stiffness = 0.5,               -- 0.6      [0, 1]
+        trailing_stiffness = 0.2,      -- 0.3      [0, 1]
+        distance_stop_animating = 0.1, -- 0.1      > 0
+        hide_target_hack = true,
+        gamma = 1,        
     },
 }
