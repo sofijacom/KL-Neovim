@@ -16,6 +16,12 @@
 
 <div align="center">
 
+![2025-02-16_22-05](https://github.com/user-attachments/assets/9a16534e-e7f5-4ec4-b50b-17941207f62b)
+
+</div>
+
+<div align="center">
+
 ![2025-01-21_15-48](https://github.com/user-attachments/assets/f03255fb-4f59-474b-a79d-a9010733db50)
 
 </div>
