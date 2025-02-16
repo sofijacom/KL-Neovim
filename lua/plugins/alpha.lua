@@ -75,23 +75,41 @@ return {
 
           require("alpha").setup(dashboard.opts)
 
-          vim.api.nvim_create_autocmd("User", {
-            once = true,
-            pattern = "LazyVimStarted",
-            callback = function()
-            local stats = require("lazy").stats()
-            local ms = (math.floor(stats.startuptime * 100 + 0.5) / 100)
-            dashboard.section.footer.val = "⚡ Neovim loaded "
-            .. stats.loaded
-            .. "/"
-            .. stats.count
-            .. " plugins in "
-            .. ms
-            .. "ms"
-            pcall(vim.cmd.AlphaRedraw)
-            end,
-          })
-          end,
+         -- vim.api.nvim_create_autocmd("User", {
+         --   once = true,
+         --   pattern = "LazyVimStarted",
+         --   callback = function()
+         --   local stats = require("lazy").stats()
+         --   local ms = (math.floor(stats.startuptime * 100 + 0.5) / 100)
+         --   dashboard.section.footer.val = "⚡ Neovim loaded "
+         --   .. stats.loaded
+         --   .. "/"
+         --   .. stats.count
+         --   .. " plugins in "
+         --   .. ms
+         --   .. "ms"
+         --   pcall(vim.cmd.AlphaRedraw)
+         --   end,
+         -- })
+         -- end,
+
+         vim.api.nvim_create_autocmd("User", {
+           once = true,
+           pattern = "LazyVimStarted",
+           callback = function()
+           local stats = require("lazy").stats()
+           local count = (math.floor(stats.startuptime * 100 + 0.5) / 100)
+           local version = vim.version()
+           local nvim_version_info = "  󰋼 v" .. version.major .. "." .. version.minor .. "." .. version.patch
+           dashboard.section.footer.val = {
+             "⚡ Neovim loaded " .. stats.loaded .. "/" .. stats.count .. " plugins in " .. count .. " ms",
+             "                      ",
+             "             NeoVim " .. nvim_version_info,
+           }
+           pcall(vim.cmd.AlphaRedraw)
+           end,
+         })
+         end,
   },
 
 }
