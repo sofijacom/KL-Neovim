@@ -37,12 +37,6 @@ return {
 
       -- logo style: logo , sharp
       dashboard.section.header.val = vim.split(sharp, "\n")
-   --   opts = {
-   --     position = "center",
-   --     hl = "TSRainbowBlue",
-   --     wrap = "overflow",
-   --   }
-
       -- stylua: ignore
       dashboard.section.buttons.val = {
         dashboard.button("f", " " .. " Find file",       "<cmd> lua LazyVim.pick()() <cr>"),
