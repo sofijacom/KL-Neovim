@@ -22,6 +22,12 @@
 
 <div align="center">
 
+![2025-02-17_00-39](https://github.com/user-attachments/assets/a8e86beb-9ac4-409e-8264-6c476270af9b)
+
+</div>
+
+<div align="center">
+
 ![2025-01-21_15-48](https://github.com/user-attachments/assets/f03255fb-4f59-474b-a79d-a9010733db50)
 
 </div>
