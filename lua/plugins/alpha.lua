@@ -9,6 +9,7 @@ return {
     enabled = true,
     init = false,
     opts = function()
+      local datetime = os.date(" %d-%m-%Y    %H:%M")
       local dashboard = require("alpha.themes.dashboard")
       local logo = [[
         ★　✯   🛸      🌓             🪐   .°•  ☄
@@ -30,10 +31,18 @@ return {
    █████████ ██████████ █████████ █████ █████ ████ █████
  ███████████ ███    ███ █████████ █████ █████ ████ █████
 ██████  █████████████████████ ████ █████ █████ ████ ██████
+
+                         ]] .. datetime .. [[
       ]]
 
       -- logo style: logo , sharp
       dashboard.section.header.val = vim.split(sharp, "\n")
+   --   opts = {
+   --     position = "center",
+   --     hl = "TSRainbowBlue",
+   --     wrap = "overflow",
+   --   }
+
       -- stylua: ignore
       dashboard.section.buttons.val = {
         dashboard.button("f", " " .. " Find file",       "<cmd> lua LazyVim.pick()() <cr>"),
@@ -46,6 +55,7 @@ return {
         dashboard.button("l", "󰒲 " .. " Lazy",            "<cmd> Lazy <cr>"),
         dashboard.button("q", " " .. " Quit",            "<cmd> qa <cr>"),
       }
+
       for _, button in ipairs(dashboard.section.buttons.val) do
         button.opts.hl = "AlphaButtons"
         button.opts.hl_shortcut = "AlphaShortcut"
