@@ -17,3 +17,9 @@ require('lualine').setup {
 -- tokyonight , catppuccin-macchiato , catppuccin-latte , github_dark_default , github_light_default, zellner , vim , elflord
 vim.o.termguicolors = true
 vim.cmd('colorscheme catppuccin-macchiato')
+
+--require('wlsample.basic')
+--require('wlsample.wind')
+--require('wlsample.airline')
+--  the animated alternative. you can toggle animation by press `<leader>u9`
+--require('wlsample.airline_anim')
