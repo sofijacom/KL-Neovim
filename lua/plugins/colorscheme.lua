@@ -127,7 +127,7 @@ return {
       }
     })
     end,
-  }, 
+  },
 --  {
     -- Configure LazyVim , Switch color scheme
 --    "LazyVim/LazyVim",
