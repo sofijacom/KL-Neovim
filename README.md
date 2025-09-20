@@ -125,9 +125,10 @@ mv ~/.cache/nvim{,.bak}
 git clone https://github.com/sofijacom/KL-Neovim.git ~/.config/nvim
 ```
 
+## open terminal and type
+
 2. **Install**
 ```bash
-# open terminal and type
 cd ~/.config/nvim
 # for installation in Arch
 chmod +x install.sh
